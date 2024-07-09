@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+
+  nextjs-starter:
+    container_name: nextjs-starter
+    network_mode: bridge
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: on-failure

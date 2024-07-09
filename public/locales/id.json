@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "Beranda",
+    "loggedIn": "Anda masuk sebagai {username}",
+    "loggedOut": "Anda telah keluar.",
+    "login": "Masuk",
+    "logout": "Keluar",
+    "secret": "Secret page for logged in users"
+  },
+  "LocaleLayout": {
+    "title": "NextJs14 Starter"
+  },
+  "Login": {
+    "title": "Masuk",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Masuk",
+    "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
+  }
+}
